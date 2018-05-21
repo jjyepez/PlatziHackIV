@@ -21,8 +21,8 @@ var emojis;
     // para agregar clases css al dom
     const estilo = document.createElement('style');
           estilo.textContent = `
-            pre    { font-size: 1rem; };
-            .oculto{ display: none !important };
+            pre    { font-size: 1rem }
+            .oculto{ display: none !important }
           `;
     document.head.appendChild( estilo )
 
