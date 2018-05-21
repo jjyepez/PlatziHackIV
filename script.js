@@ -128,7 +128,7 @@ var emojis;
                 $ico.addEventListener('click', e => {
                     const $input = document.getElementById('chat-input');
                     $input.value += e.target.innerHTML;
-                    document.querySelector('.jjPopOver').classList.add('oculto');
+                    // document.querySelector('.jjPopOver').classList.add('oculto'); --- opcional
                     $input.focus();
                 });
                 // aun estan pendientes por descartar los que muestran un rectangulo en lugar del emoji
