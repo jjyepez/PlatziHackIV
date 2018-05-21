@@ -4,7 +4,8 @@
 // @version      0.1b
 // @description  emojis en el Live!
 // @author       @jjyepez
-// @match        https://platzi.com/live/*
+// @match        http*://platzi.com/live/*
+// @match        http*://platzi.com/clases/*
 // @grant        none
 // ==/UserScript==
 
