@@ -17,7 +17,7 @@ var emojis;
 (function() {
     'use strict';
 
-    document.querySelector('.stream').remove(); // --- opcional para evitar la regarca del video con cada F5 -- jjy
+    // document.querySelector('.stream').remove(); // --- opcional para evitar la regarca del video con cada F5 -- jjy
 
     // para agregar clases css al dom
     const estilo = document.createElement('style');
