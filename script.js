@@ -126,8 +126,9 @@ var emojis;
             if( $ico.innerText.length < 5 ){ // debe haber una mejor manera de descartar los emojis que no estan soportados por el navegador
                 $contCat.appendChild( $ico );
                 $ico.addEventListener('click', e => {
+                    
                     const $input = document.getElementById('chat-input');
-                    $input.style.paddingRight = '2rem !important';
+                    $input.style.padding = '10px 2rem 25px 10px';
                     $input.value += e.target.innerHTML;
                     // document.querySelector('.jjPopOver').classList.add('oculto'); --- opcional
                     $input.focus();
