@@ -25,9 +25,11 @@ var emojis;
             pre    { font-size: 1rem }
             .oculto{ display: none !important }
           `;
-    document.head.appendChild( estilo )
-
+    document.head.appendChild( estilo );
+    
     const $chatForm = document.querySelector('.ChatForm');
+    const $input = document.getElementById('chat-input');
+          $input.style.padding = '10px 2rem 25px 10px';
 
     // para agregar estilos a un elemento del dom
     const $bE = document.createElement('div');
