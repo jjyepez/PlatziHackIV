@@ -127,7 +127,7 @@ var emojis;
                 $contCat.appendChild( $ico );
                 $ico.addEventListener('click', e => {
                     const $input = document.getElementById('chat-input');
-                    $input.style.paddingRight = '2rem';
+                    $input.style.paddingRight = '2rem !important';
                     $input.value += e.target.innerHTML;
                     // document.querySelector('.jjPopOver').classList.add('oculto'); --- opcional
                     $input.focus();
