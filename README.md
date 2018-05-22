@@ -10,3 +10,4 @@ PlatziHack IV (beta) ... emojis para el chat de los Platzi lives / clases en viv
 - Permitir incluir emojis en cualquier parte no sólo al final
 - aumentar el tamaño de los emojis en el chat
 - Usar imágenes en lugar de emojis unicode
+- Agregar emojis en texto de aportes y apuntes de cursos
