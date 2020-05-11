@@ -79,7 +79,7 @@ var emojis;
             cachedJson = window.localStorage.getItem('platziHackIV:jsonEmojis'); // cache manual
             if( !cachedJson ){
                 // este bloque se apoya en la definición del arreglo para los emojis (pen externo)
-                fetch('https://noesishosting.com/sw/cors/?a=cors&url=https://codepen.io/jjyepez/pen/dewLLw.js')
+                fetch('https://noesishosting.com/sw/cors/?a=cors&url=https://noesishosting.com/drive/platzi/hacks/emojis.json')
                 .then( rsp => rsp.json() )
                 .then( data => {
                     inicializar(data);
